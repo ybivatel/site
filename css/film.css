@@ -1,0 +1,103 @@
+body{
+    font: 14px 'Play', Arial, Helvetica, sans-serif;
+    color: #ccc;
+}
+.main-block {
+    background-color: #202328;
+}
+*{
+    background: transparent;
+    margin: 0;
+    padding: 0;
+    outline: none;
+    border: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+.a{
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.top-menu li{
+    display: inline-block;
+    padding: 10px 30px;
+    margin: 0;
+}
+
+.wrap {min-width:320px;}
+.wrap-center {max-width:1200px;width: 100%;margin:0 auto;position:relative;z-index:20;}
+.main-block {background-color: #202328;}
+.cont {width: 100%;}
+.side {background-color: #2a2d34; width: 300px; padding: 30px; padding-top: 0; position: relative;}
+.main {padding: 30px; min-height: 80vh;}
+.nav-col {width: 55%;}
+.nav-col + .nav-col {width: 40%;}
+.nav-title {font-weight: 700; margin-bottom: 12px; color: #33b6de;}
+.nav-menu + .nav-title {margin-top: 15px;}
+.nav-menu {margin: 0 0 0 -30px;}
+.nav-col + .nav-col .nav-menu {margin: 0 -30px 0 -15px;}
+.nav-menu a {display:block; padding: 4px 0 4px 30px;}
+.nav-col + .nav-col .nav-menu a {display:block; padding: 4px 0 4px 15px;}
+.nav-menu a:hover, .nav-menu a.is-active {background-color: rgba(0,0,0,0.3); color: #fff;}
+.img-wide{
+    overflow: hidden;
+    position: relative;
+    background-color: #000;
+}
+.img-wide img {
+    width: 100%;
+    display: block;
+}
+img {
+    max-width: 100%;
+}
+.fx-row {
+    display: flex;
+    webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-pack: justify;
+    -webkit-justify-content: space-between;
+    justify-content: space-between;
+}
+.fx-1 {
+    flex-basis: 0;
+        -webkit-box-flex: 1;
+    flex-grow: 1;
+    max-width: 100%;
+    min-width: 50px;
+}
+.movie-page {
+    position: relative;
+    z-index: 1;
+}
+.short-top {
+    margin-bottom: 15px;
+    width: 100%;}
+.mcols {
+    margin-bottom: 30px;
+}
+.mleft {
+    width: 200px;
+    margin-right: 30px;
+}
+.mright {
+    position: relative;
+}
+.short-info {
+    margin-top: 3px;
+    line-height: 1.7;
+}
+.side-bt {
+    font-weight: 700;
+    color: #fff;
+    border-left: 3px solid #fd6500;
+    background-color: rgba(0,0,0,0.3);
+    padding: 10px 0 10px 30px;
+    margin-bottom: 15px;
+    margin-left: -30px;
+    margin-right: -30px;
+    font-size: 16px;
+}
+article, aside, figure, figure img, hgroup, footer, header, nav, section, main {
+    display: block;
+}
