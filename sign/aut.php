@@ -12,5 +12,5 @@ if (count($user) == 0) {
 }
  setcookie('user', $user['name'], time() + 3600*24*30,"/");
 $mysql->close();
-header('Location: http://localhost:63343/untitled/mane.html');
+header('Location: http://localhost:63342/untitled/mane.html');
 ?>
